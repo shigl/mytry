@@ -1,10 +1,9 @@
 package com.imooc.ioc.interfaces;
 
-public class OneInterfaceImpl implements OneInterface{
-
-	@Override
-	public String hello(String word) {
-		return "Word from interface \"OneInterface:\"" +word;
+public class OneInterfaceImpl implements OneInterface {
+	
+	public void say(String arg) {
+		System.out.println("ServiceImpl say: " + arg);
 	}
 
 }
