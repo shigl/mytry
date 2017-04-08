@@ -75,5 +75,7 @@
 	<classpathentry kind="lib" path="lib/resource/spring/spring-webmvc-portlet-4.0.5.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/resource/spring/spring-websocket-4.0.5.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-expression-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
